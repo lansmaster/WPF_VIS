@@ -10,11 +10,11 @@ none
 false
 TRACE;DEBUG;NET;NET8_0;NETCOREAPP
 C:\Users\Администратор\source\repos\WPF_VIS\Baryshev\App.xaml
-11407045341
+2516587238
 
-61553255785
+7-1519904567
 226-1253895195
-MainWindow.xaml;
+AdminWindow.xaml;MainWindow.xaml;
 
-False
+True
 
