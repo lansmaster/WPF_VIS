@@ -10,11 +10,11 @@ none
 false
 TRACE;DEBUG;NET;NET8_0;NETCOREAPP
 C:\Users\Администратор\source\repos\WPF_VIS\Baryshev\App.xaml
-2516587238
+3931857062
 
-7-1519904567
+8-1461441166
 226-1253895195
-AdminWindow.xaml;MainWindow.xaml;
+AdminWindow.xaml;EmployeeManagementWindow.xaml;MainWindow.xaml;
 
 True
 

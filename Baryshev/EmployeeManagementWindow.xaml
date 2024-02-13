@@ -1,0 +1,38 @@
+﻿<Window x:Class="Baryshev.EmployeeManagementWindow"
+        xmlns="http://schemas.microsoft.com/winfx/2006/xaml/presentation"
+        xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml"
+        xmlns:d="http://schemas.microsoft.com/expression/blend/2008"
+        xmlns:mc="http://schemas.openxmlformats.org/markup-compatibility/2006"
+        xmlns:local="clr-namespace:Baryshev"
+        mc:Ignorable="d"
+        Title="EmployeeManagementWindow" Height="450" Width="550">
+    <Grid Background="LightGray">
+        <Grid.RowDefinitions>
+            <RowDefinition Height="Auto"/>
+            <RowDefinition Height="*"/>
+            <RowDefinition Height="Auto"/>
+        </Grid.RowDefinitions>
+
+        <Grid.ColumnDefinitions>
+            <ColumnDefinition Width="*"/>
+        </Grid.ColumnDefinitions>
+
+        <DataGrid x:Name="EmployeesGrid" AutoGenerateColumns="True" HorizontalAlignment="Stretch" VerticalAlignment="Stretch" CanUserAddRows="False"/>
+
+        <StackPanel Background="White" Grid.Row="1" HorizontalAlignment="Center" VerticalAlignment="Top" Margin="0,315,0,0" Width="550" Height="106">
+
+            <Button Content="Уволить выбранного сотрудника" MinWidth="300" MinHeight="30" Margin="10">
+                <Button.Background>
+                    <SolidColorBrush Color="#FFF5DCDC"/>
+                </Button.Background>
+            </Button>
+
+            <Button Content="Добавить нового сотрудника" MinWidth="300" MinHeight="30" Margin="10">
+                <Button.Background>
+                    <SolidColorBrush Color="#FFDCF5DC"/>
+                </Button.Background>
+            </Button>
+
+        </StackPanel>
+    </Grid>
+</Window>
