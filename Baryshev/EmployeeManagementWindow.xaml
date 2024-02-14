@@ -5,7 +5,7 @@
         xmlns:mc="http://schemas.openxmlformats.org/markup-compatibility/2006"
         xmlns:local="clr-namespace:Baryshev"
         mc:Ignorable="d"
-        Title="EmployeeManagementWindow" Height="450" Width="550">
+        Title="Управление сотрудниками" SizeToContent="WidthAndHeight">
     <Grid Background="LightGray">
         <Grid.RowDefinitions>
             <RowDefinition Height="Auto"/>
